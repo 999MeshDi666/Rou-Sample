@@ -5,7 +5,7 @@
     justify-content: space-around;
 }
 
-.general_title{
+.intro_title{
     text-align: center;
     display: grid;
     row-gap: 48px;
@@ -13,13 +13,14 @@
     grid-template-rows: auto;
     margin: 0 auto;
 
-    .general_h2{
-        color: #c04ae2;
+    .intro_h2{
+        color: $prp;
         text-transform: uppercase;
         letter-spacing: 5px;
         font-weight: bolder;
+        font-size: 18px;
     }
-    .general_h1{
+    .intro_h1{
         font-size: 60px;
         font-weight: bolder;
     }

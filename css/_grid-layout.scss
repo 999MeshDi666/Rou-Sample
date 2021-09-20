@@ -46,6 +46,8 @@
     display: grid;
     grid-template-columns: minmax(150px, 375px) 1170px minmax(150px, 375px);
     grid-template-rows: 1fr;
+    padding: 106px 0 184px 0;
+    background-color:  #f4e9e9;
 }
 .sec_portfolio{
     grid-area: portfolio;

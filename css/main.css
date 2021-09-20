@@ -70,6 +70,8 @@ ul, li {
   display: grid;
   grid-template-columns: minmax(150px, 375px) 1170px minmax(150px, 375px);
   grid-template-rows: 1fr;
+  padding: 106px 0 184px 0;
+  background-color: #f4e9e9;
 }
 
 .sec_portfolio {
@@ -223,7 +225,7 @@ ul, li {
       justify-content: space-around;
 }
 
-.general_title {
+.intro_title {
   text-align: center;
   display: grid;
   row-gap: 48px;
@@ -231,13 +233,14 @@ ul, li {
   grid-template-rows: auto;
   margin: 0 auto;
 }
-.general_title .general_h2 {
+.intro_title .intro_h2 {
   color: #c04ae2;
   text-transform: uppercase;
   letter-spacing: 5px;
   font-weight: bolder;
+  font-size: 18px;
 }
-.general_title .general_h1 {
+.intro_title .intro_h1 {
   font-size: 60px;
   font-weight: bolder;
 }
@@ -363,6 +366,78 @@ ul, li {
   bottom: 0;
   left: 0;
   right: 0;
+}
+
+.services_wrapper {
+  grid-column-start: 2;
+  display: grid;
+  row-gap: 150px;
+}
+
+.services_title {
+  text-align: right;
+  margin-left: 400px;
+  width: 770px;
+}
+.services_title .services_h2 {
+  color: #c04ae2;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: bolder;
+  font-size: 18px;
+  margin-bottom: 18px;
+}
+.services_title .services_h1 {
+  font-size: 50px;
+  font-weight: bolder;
+}
+
+.services_content {
+  display: grid;
+  grid-template-columns: repeat(3, 378px);
+  grid-template-rows: repeat(2, 475px);
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.services_content .services_cards {
+  background-color: #fff;
+  width: 310px;
+  height: 370px;
+  text-align: center;
+  padding: 43px 23px;
+  border-radius: 20px;
+  justify-self: center;
+}
+.services_content .services_cards .services_cards_h2 {
+  margin: 21px 0;
+  font-weight: bolder;
+  background-position: top center;
+  background-repeat: no-repeat;
+  padding-top: 115px;
+}
+.services_content .services_cards .card_square {
+  background-image: url(../img/squares.png);
+}
+.services_content .services_cards .card_shoppingcart {
+  background-image: url(../img/shoppingcart.png);
+}
+.services_content .services_cards .card_camera {
+  background-image: url(../img/video-camera.png);
+}
+.services_content .services_cards .card_headphones {
+  background-image: url(../img/headphones.png);
+}
+.services_content .services_cards .card_placeholder {
+  background-image: url(../img/placeholder.png);
+}
+.services_content .services_cards .card_upload {
+  background-image: url(../img/upload.png);
+}
+.services_content .services_cards .services_cards_p {
+  color: #5e5858;
+  font-size: 18px;
+  margin-bottom: 35px;
 }
 
 /*# sourceMappingURL=main.css.map */

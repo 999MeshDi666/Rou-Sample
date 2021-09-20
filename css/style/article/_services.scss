@@ -1,0 +1,77 @@
+.services_wrapper{
+    grid-column-start: 2;
+    display: grid;
+    row-gap: 150px;
+}
+
+.services_title{
+    text-align: right;
+    margin-left: 400px;
+    width: 770px;
+
+    .services_h2{
+        color: $prp;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        font-weight: bolder;
+        font-size: 18px;
+        margin-bottom: 18px;
+    }
+    .services_h1{
+        font-size: 50px;
+        font-weight: bolder;
+    }
+}
+
+.services_content{
+    display: grid;
+    grid-template-columns:  repeat(3, 378px);
+    grid-template-rows: repeat(2, 475px);
+    justify-content: center;
+    
+
+
+    .services_cards{
+        background-color: $wt;
+        width: 310px;
+        height: 370px;
+        text-align: center;
+        padding: 43px 23px;
+        border-radius: 20px;
+        justify-self: center;
+        .services_cards_h2{
+            margin: 21px 0;
+            font-weight: bolder;
+            background-position: top center;
+            background-repeat: no-repeat;
+            padding-top: 115px;
+        }
+        .card_square{
+            background-image: url(../img/squares.png);
+        }
+        .card_shoppingcart{
+            background-image: url(../img/shoppingcart.png);
+        }
+        .card_camera{
+            background-image: url(../img/video-camera.png);
+
+        }
+        .card_headphones{
+            background-image: url(../img/headphones.png);
+
+        }
+        .card_placeholder{
+            background-image: url(../img/placeholder.png);
+
+        }
+        .card_upload{
+            background-image: url(../img/upload.png);
+
+        }
+        .services_cards_p{
+            color: #5e5858;
+            font-size: 18px;
+            margin-bottom: 35px;
+        }
+    }
+}
