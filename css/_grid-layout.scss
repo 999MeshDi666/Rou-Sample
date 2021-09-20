@@ -1,0 +1,87 @@
+.container{
+    display: grid;
+    grid-template-columns: fit-content(1920px);
+    grid-template-rows: 1fr;
+    grid-template-areas: "header header"
+                        "intro intro"
+                        "about about"
+                        "services services"
+                        "portfolio portfolio"
+                        "team team"
+                        "testimonial testimonial"
+                        "contact contact"
+                        "blog blog" 
+                        "footer footer";
+}
+
+.header{
+    display: grid;
+    grid-template-columns:  minmax(150px, 375px) 1170px minmax(150px, 375px);
+    grid-template-rows: 1fr;
+    grid-area: header;
+    background-image: url(../img/headerbg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 120px;
+}
+.sec_intro{
+    grid-area: intro;
+    display: grid;
+    grid-template-columns: minmax(150px, 375px) 1170px minmax(150px, 375px);
+    grid-template-rows: 1fr;
+    background-image: url(../img/introbg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 168px 0 120px 0;
+}
+.sec_about{
+    grid-area: about;
+    display: grid;
+    grid-template-columns: minmax(150px, 375px) 1170px minmax(150px, 375px);
+    grid-template-rows: 1fr;
+    padding: 80px 0;
+}
+.sec_services{
+    grid-area: services;
+    display: grid;
+    grid-template-columns: minmax(150px, 375px) 1170px minmax(150px, 375px);
+    grid-template-rows: 1fr;
+}
+.sec_portfolio{
+    grid-area: portfolio;
+    display: grid;
+    grid-template-columns: minmax(150px, 375px) 1170px minmax(150px, 375px);
+    grid-template-rows: 1fr;
+}
+.sec_team{
+    grid-area: team;
+    display: grid;
+    grid-template-columns: minmax(150px, 375px) 1170px minmax(150px, 375px);
+    grid-template-rows: 1fr;
+}
+.sec_testimonial{
+    grid-area: testimonial;
+    display: grid;
+    grid-template-columns: minmax(150px, 375px) 1170px minmax(150px, 375px);
+    grid-template-rows: 1fr;
+}
+.sec_contant{
+    grid-area: contact;
+    display: grid;
+    grid-template-columns: minmax(150px, 375px) 1170px minmax(150px, 375px);
+    grid-template-rows: 1fr;
+}
+.sec_blog{
+    grid-area: blog;
+    display: grid;
+    grid-template-columns: minmax(150px, 375px) 1170px minmax(150px, 375px);
+    grid-template-rows: 1fr;
+}
+
+
+.footer{
+    grid-template-columns: minmax(150px, 375px) 1170px minmax(150px, 375px);
+    grid-template-rows: 1fr;
+    grid-area: footer;
+    // grid-column-start: 2;
+}
