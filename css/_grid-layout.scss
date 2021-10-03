@@ -39,21 +39,25 @@
     display: grid;
     grid-template-columns: minmax(150px, 375px) 1170px minmax(150px, 375px);
     grid-template-rows: 1fr;
-    padding: 80px 0;
+    padding: 80px 0 120px 0;
+    background-color: #fefcfd;
 }
 .sec_services{
     grid-area: services;
     display: grid;
     grid-template-columns: minmax(150px, 375px) 1170px minmax(150px, 375px);
     grid-template-rows: 1fr;
-    padding: 106px 0 184px 0;
+    padding: 106px 0 220px 0;
     background-color:  #f4e9e9;
+    // background-color: #fefcfd;
 }
 .sec_portfolio{
     grid-area: portfolio;
     display: grid;
     grid-template-columns: minmax(150px, 375px) 1170px minmax(150px, 375px);
     grid-template-rows: 1fr;
+    padding: 162px 0 132px 0;
+    background-color: #eef3f9;
 }
 .sec_team{
     grid-area: team;
@@ -82,6 +86,7 @@
 
 
 .footer{
+    display: grid;
     grid-template-columns: minmax(150px, 375px) 1170px minmax(150px, 375px);
     grid-template-rows: 1fr;
     grid-area: footer;
