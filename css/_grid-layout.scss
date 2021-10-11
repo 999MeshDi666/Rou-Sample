@@ -72,6 +72,8 @@
     display: grid;
     grid-template-columns: minmax(150px, 375px) 1170px minmax(150px, 375px);
     grid-template-rows: 1fr;
+    padding-bottom: 170px;
+    background-color: #f9fafc;
 }
 .sec_contant{
     grid-area: contact;

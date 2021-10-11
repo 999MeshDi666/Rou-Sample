@@ -6,7 +6,7 @@
 
 .portfolio_title{
     text-align: center;
-    .portfolio_h1{
+    .portfolio_h2{
         color: $prp;
         text-transform: uppercase;
         letter-spacing: 5px;
@@ -14,7 +14,7 @@
         font-size: 18px;
         margin-bottom: 18px;
     }
-    .portfolio_h2{
+    .portfolio_h1{
         font-size: 60px;
         font-weight: bolder;
     }
@@ -45,19 +45,13 @@
                     top: 25px;
                     bottom: 0;
                     right: 0;
-                    left: 36px;
-                    
-                   
-                    
-                   
+                    left: 36px;  
                 }
                 .blocks_img_s{
                     top: 25px;
                     bottom: 0;
                     right: 0;
                     left: -36px;
-                   
-                    
                 }
                 
                
