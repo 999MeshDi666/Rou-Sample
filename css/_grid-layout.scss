@@ -64,8 +64,8 @@
     display: grid;
     grid-template-columns: minmax(150px, 375px) 1170px minmax(150px, 375px);
     grid-template-rows: 1fr;
-    background-color: #fdfbfe;
-    padding-top: 220px;
+    background-color: $wt;
+    padding: 220px 0 192px 0;
 }
 .sec_testimonial{
     grid-area: testimonial;

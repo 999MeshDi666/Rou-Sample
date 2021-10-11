@@ -89,8 +89,8 @@ ul, li {
   display: grid;
   grid-template-columns: minmax(150px, 375px) 1170px minmax(150px, 375px);
   grid-template-rows: 1fr;
-  background-color: #fdfbfe;
-  padding-top: 220px;
+  background-color: #fff;
+  padding: 220px 0 192px 0;
 }
 
 .sec_testimonial {
@@ -619,6 +619,49 @@ ul, li {
 .team_wrapper {
   grid-column-start: 2;
   display: grid;
+  row-gap: 137px;
+}
+
+.team_title {
+  text-align: center;
+}
+.team_title .team_h1 {
+  color: #c04ae2;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: bolder;
+  font-size: 18px;
+  margin-bottom: 18px;
+}
+.team_title .team_h2 {
+  font-size: 60px;
+  font-weight: bolder;
+}
+
+.team_content .team_pictures {
+  display: grid;
+  grid-template-columns: repeat(4, 270px);
+  grid-template-rows: auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-column-gap: 30px;
+          column-gap: 30px;
+}
+.team_content .team_pictures .team_picture_general .team_picture_h3 {
+  margin-top: 24px;
+  font-weight: bolder;
+  font-size: 23px;
+}
+.team_content .team_pictures .team_picture_general .team_picture_p {
+  color: #adb0ba;
+}
+.team_content .team_pictures .team_picture_bottom {
+  position: relative;
+  top: 72px;
+  bottom: 0;
+  right: 0;
+  left: 0;
 }
 
 /*# sourceMappingURL=main.css.map */

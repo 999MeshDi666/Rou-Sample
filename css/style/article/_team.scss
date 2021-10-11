@@ -1,4 +1,50 @@
 .team_wrapper{
     grid-column-start: 2;
     display: grid;
+    row-gap: 137px;
+}
+.team_title{
+    text-align: center;
+    .team_h1{
+        color: $prp;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        font-weight: bolder;
+        font-size: 18px;
+        margin-bottom: 18px;
+    }
+    .team_h2{
+        font-size: 60px;
+        font-weight: bolder;
+    }
+}
+
+.team_content{
+    .team_pictures{
+        display: grid;
+        grid-template-columns: repeat(4,270px);
+        grid-template-rows: auto;
+        justify-content: center;
+        column-gap: 30px;
+
+        .team_picture_general{           
+            .team_picture_h3{
+                margin-top: 24px;
+                font-weight: bolder;
+                font-size: 23px;
+            }
+            .team_picture_p{
+                color: #adb0ba;
+            }
+        }
+        .team_picture_bottom{
+            position: relative;
+            top: 72px;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            
+        }
+       
+    }
 }
