@@ -148,8 +148,11 @@ ul, li {
   font-size: 20px;
   text-decoration: none;
 }
+.header_nav nav .nav_list li a:hover {
+  color: rgba(0, 0, 0, 0.836);
+}
 .header_nav nav .nav_list li a:active {
-  color: rgba(0, 0, 0, 0.76);
+  color: black;
 }
 .header_nav nav .nav_list li .nav_sepical_btn {
   border: 3px #c353e3 solid;
@@ -521,10 +524,6 @@ ul, li {
 }
 .portfolio_content .portfolio_block .blocks_general_img .portfolio_img_wrapper {
   border-radius: 20px;
-  -webkit-perspective: 313px;
-          perspective: 313px;
-  -webkit-perspective-origin: 52% 105%;
-          perspective-origin: 52% 105%;
 }
 .portfolio_content .portfolio_block .blocks_general_img .portfolio_img_wrapper .blocks_img {
   border-radius: 20px;
@@ -533,14 +532,12 @@ ul, li {
   bottom: 0;
   right: 0;
   left: 36px;
-  z-index: 0;
 }
 .portfolio_content .portfolio_block .blocks_general_img .portfolio_img_wrapper .blocks_img_s {
   top: 25px;
   bottom: 0;
   right: 0;
   left: -36px;
-  z-index: 0;
 }
 .portfolio_content .portfolio_block .blocks_general_img .img_wrap_f {
   border: 7px solid #fcd7df;

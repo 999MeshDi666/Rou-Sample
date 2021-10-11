@@ -31,11 +31,11 @@
         .blocks_general_img{
         
             .portfolio_img_wrapper{
-                
                 border-radius: 20px;
+                // perspective: 313px;
+                // perspective-origin: 52% 105%;
+                // position: relative;
                 
-                perspective: 313px;
-                perspective-origin: 52% 105%;
                 
                 .blocks_img{
                     // width: 450px;
@@ -46,7 +46,9 @@
                     bottom: 0;
                     right: 0;
                     left: 36px;
-                    z-index: 0;
+                    
+                   
+                    
                    
                 }
                 .blocks_img_s{
@@ -54,7 +56,8 @@
                     bottom: 0;
                     right: 0;
                     left: -36px;
-                    z-index: 0;
+                   
+                    
                 }
                 
                
