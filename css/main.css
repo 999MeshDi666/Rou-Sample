@@ -108,7 +108,7 @@ ul, li {
   grid-template-columns: minmax(150px, 375px) 1170px minmax(150px, 375px);
   grid-template-rows: 1fr;
   padding: 175px 0;
-  border-color: #fff8f6;
+  border-color: #fcfcfc;
 }
 
 .sec_blog {
@@ -771,6 +771,8 @@ ul, li {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-column-gap: 180px;
+          column-gap: 180px;
 }
 .contact_content .contact_content_form .contact_from_h2 {
   font-size: 40px;
@@ -786,6 +788,7 @@ ul, li {
   outline: none;
   -webkit-box-shadow: 0px 3px 11px -2px rgba(34, 60, 80, 0.2);
   box-shadow: 0px 3px 11px -2px rgba(34, 60, 80, 0.2);
+  font-size: 18px;
 }
 .contact_content .contact_content_form .contact_form .contact_form_text_area {
   margin: 28px 0;
@@ -844,6 +847,33 @@ ul, li {
   -webkit-transition: 0.5s;
   transition: 0.5s;
   background-color: #ae42cc;
+}
+.contact_content .contact_text {
+  margin-top: 104px;
+}
+.contact_content .contact_text p {
+  color: #5e5858;
+}
+.contact_content .contact_text .contact_text_p {
+  font-size: 18px;
+}
+.contact_content .contact_text .contact_text_connect .contact_connect_general {
+  margin: 45px 0;
+  background-repeat: no-repeat;
+  background-position: left center;
+  padding-left: 70px;
+}
+.contact_content .contact_text .contact_text_connect .contact_connect_general h3 {
+  font-weight: bolder;
+}
+.contact_content .contact_text .contact_text_connect .contact_connect_phone {
+  background-image: url(../img/phoneicon.png);
+}
+.contact_content .contact_text .contact_text_connect .contact_connect_email {
+  background-image: url(../img/emailicon.png);
+}
+.contact_content .contact_text .contact_text_connect .contact_connect_address {
+  background-image: url(../img/addressicon.png);
 }
 
 /*# sourceMappingURL=main.css.map */
