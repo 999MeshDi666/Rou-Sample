@@ -81,7 +81,7 @@
     grid-template-columns: minmax(150px, 375px) 1170px minmax(150px, 375px);
     grid-template-rows: 1fr;
     padding: 175px 0;
-    border-color: #fcfcfc;
+    background-color: #fcfcfc;
 
 }
 .sec_blog{
@@ -89,6 +89,8 @@
     display: grid;
     grid-template-columns: minmax(150px, 375px) 1170px minmax(150px, 375px);
     grid-template-rows: 1fr;
+    padding: 191px 0;
+    background-color: #edf2f2;
 }
 
 
@@ -97,5 +99,7 @@
     grid-template-columns: minmax(150px, 375px) 1170px minmax(150px, 375px);
     grid-template-rows: 1fr;
     grid-area: footer;
+    padding-top: 168px;
+    padding-bottom: 60px;
     // grid-column-start: 2;
 }

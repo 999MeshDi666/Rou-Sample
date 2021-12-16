@@ -136,8 +136,13 @@
     font-weight: bold;
     font-size: 18px;
     border-bottom: 2px $prp solid;
+    font-family: $ovrp;
     padding-bottom: 5px;
+    transition: .4s;
 }
 .portfolio_btn a:hover{
-    color: rgba(0, 0, 0, 0.849);
+    color: rgb(54, 53, 53);
+}
+.portfolio_btn a:active{
+    color: rgb(0, 0, 0);
 }
